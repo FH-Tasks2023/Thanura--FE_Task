@@ -1,0 +1,39 @@
+.col{
+   border: 2px solid crimson;
+}
+#ui{
+  text-align: left;
+  margin-top: 2vh;
+  font-size: 5rem;
+  color: white;
+  font-weight: bolder;
+}
+span{
+  color: #8543cb;
+}
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top:50px;
+  background-color: black;
+}
+.border-stat{
+  background-color: seashell;
+  margin-top: 10vh;
+}
+#beginner{
+  margin-top: 50px;
+  margin-left: -20vw;
+  color: white;
+  transform:rotate(270deg);
+  font-size: 1.2rem;
+}
+#pro{
+  color: white;
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 100px;
+}
+
