@@ -4,16 +4,16 @@
       <img src="/assets/FH_Contact.png" height="500" width="380" alt="">
     </div>
     <div class="col">
-      <form>
+      <form [formGroup]="contact" (ngSubmit)="submit()">
         <h2>CONTACT</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam aspernatur cum eos ipsum </p>
         <div class="mb-3">
-          <input type="email" class="form-control" id="name" aria-describedby="emailHelp" placeholder="NAME">
+          <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="NAME" formControlName="name">
         </div>
         <div class="mb-3">
-          <input type="email" class="form-control" id="email" placeholder="EMAIL">
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" formControlName="email">
         </div>
-        <textarea class="form-control" placeholder="MESSAGE" id="message" style="height: 100px"></textarea>
+        <input type="email" class="form-control" id="message" placeholder="MESSAGE" formControlName="message">
 
         <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
       </form>

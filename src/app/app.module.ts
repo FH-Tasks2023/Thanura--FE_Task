@@ -9,6 +9,8 @@ import { ContactComponent } from './contact/contact.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { MiddleBarComponent } from './middle-bar/middle-bar.component';
+import {ReactiveFormsModule} from "@angular/forms";
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +20,14 @@ import { MiddleBarComponent } from './middle-bar/middle-bar.component';
     ContactComponent,
     NavComponent,
     FooterComponent,
-    MiddleBarComponent
+    MiddleBarComponent,
+    PagenotfoundComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        ReactiveFormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
