@@ -7,9 +7,10 @@ import {PagenotfoundComponent} from "./pagenotfound/pagenotfound.component";
 
 const routes: Routes = [
   {path: 'home',component:HomeComponent},
+  {path: '',component:HomeComponent},
   {path: 'contact',component:ContactComponent},
   {path: 'about',component:AboutComponent},
-  {path: '**',component:PagenotfoundComponent},
+  {path: '**',pathMatch: 'full', component:PagenotfoundComponent},
 ];
 
 @NgModule({
