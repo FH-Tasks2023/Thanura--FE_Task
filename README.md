@@ -1,4 +1,6 @@
 # FHThanura2023
+## Hi, 
+## Routing and Contact form are function and corrently contact form data print on console log and ready to send back end
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
